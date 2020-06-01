@@ -1,2 +1,2 @@
-# koro.github.io
-koro.wtf website
+# korobaka.github.io
+korobaka.me website
