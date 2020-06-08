@@ -1,2 +1,2 @@
 # korobaka.github.io
-koro.wtf website
+A website created only with hand-packed javascript.
