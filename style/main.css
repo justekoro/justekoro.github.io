@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html,
+body {
+  margin: 0;
+  font-size: 1rem; }
+
+body {
+  padding-bottom: 2em;
+  text-align: center; }
+  @media all and (max-width: 768px) {
+    body {
+      padding-bottom: 0; } }
+
+body,
+input,
+textarea,
+select {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+
+.sidebar {
+  padding: 0; }
+  .sidebar .swal2-footer {
+    justify-content: space-around; }
+    @media all and (max-width: 480px) {
+      .sidebar .swal2-footer {
+        flex-direction: column; } }
+  .sidebar nav {
+    display: block !important;
+    position: initial; }
+
+h3 {
+  position: relative;
+  margin-top: 3em;
+  padding-top: 3em;
+  color: #666;
+  font-size: 1.75em;
+  text-align: center;
+  text-transform: uppercase; }
+  h3::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 43.75rem;
+    height: .25em;
+    margin-top: -2em;
+    margin-left: -21.875rem;
+    border-radius: .125em;
+    background-color: #e2e5e8; }
+    @media all and (max-width: 768px) {
+      h3::before {
+        right: 1.25em;
+        left: 1.25em;
+        width: auto;
+        margin-left: 0; } }
+
+a {
+  color: #2196f3;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: underline; }
+
+p {
+  max-width: 51.625rem;
+  margin: 1.875em auto;
+  font-size: 1.0625em;
+  font-weight: 300;
+  line-height: 1.5625em;
+  text-align: left; }
+  p.center {
+    text-align: center; }
+  p strong {
+    font-weight: 600; }
+  @media all and (max-width: 768px) {
+    p {
+      padding: 0 .625em;
+      text-align: center; } }
