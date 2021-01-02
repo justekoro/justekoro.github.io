@@ -118,7 +118,6 @@ particlesJS('pjs', {
 new fullpage('.k-m', {
     navigation: true,
     responsiveWidth: 980,
-    parallax: true,
     anchors: ['k-i', 'k-pl', 'k-kbkgio', 'k-lm'],
     licenseKey: 'KGl8O!P%k0'
 })
