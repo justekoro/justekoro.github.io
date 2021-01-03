@@ -6,7 +6,7 @@
 
 new fullpage('.k-m', {
     navigation: true,
-    responsiveWidth: 980,
-    anchors: ['k-i', 'k-pl', 'k-kbkgio', 'k-lm'],
+    responsiveWidth: 600,
+    anchors: ['k-m', 'k-i', 'k-pj', 'k-sk'],
     licenseKey: 'KGl8O!P%k0'
 })
