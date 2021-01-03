@@ -1,2 +1,2 @@
 # korobaka.github.io
-A website created only with hand-packed javascript.
+A website to introduce me.
