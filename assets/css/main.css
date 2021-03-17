@@ -1,1 +1,44 @@
-.k-h{background-color:dimgray}.par{color:black}.k-i{background-color:darkgray}.k-pj{background-color:wheat}.k-sk{background-color:mistyrose}.in-bg-white{background-color:darkgray;border-radius:25px;}
+.k-h {
+    background-color: dimgray;
+}
+.par {
+    color: black;
+}
+.k-i {
+    background-color: darkgray;
+}
+.k-pj {
+    background-color: wheat;
+}
+.k-sk {
+    background-color: mistyrose;
+}
+.in-bg-white {
+    background-color: darkgray;
+    border-radius: 25px;
+}
+.k-header {
+    position: absolute;
+    top: 0px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.align-right {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    padding: 0 10px 0;
+}
+.hidden-full{
+    opacity: 0;
+}
+
+/* code taken on stackoverflow: */
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
