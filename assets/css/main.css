@@ -25,6 +25,12 @@
     width: 100%;
     text-align: center;
 }
+.footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
 .align-right {
     position: absolute;
     right: 10px;
