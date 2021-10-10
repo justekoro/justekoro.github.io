@@ -5,3 +5,8 @@ body,html{
     background-repeat:no-repeat;
     background-size:cover;
 }
+.pres{
+    background-color: rgba(44,48,52,.7);
+    border-radius: 25px;
+    padding: 1% 2%;
+}
