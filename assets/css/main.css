@@ -10,3 +10,6 @@ body,html{
     border-radius: 25px;
     padding: 1% 2%;
 }
+.bottom-def{
+    bottom:.5%;
+}
