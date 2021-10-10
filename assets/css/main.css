@@ -13,3 +13,10 @@ body,html{
 .bottom-def{
     bottom:.5%;
 }
+.tr-bg-fade{
+    transition: background-color .5s linear;
+}
+
+a i {
+    color: white;
+}

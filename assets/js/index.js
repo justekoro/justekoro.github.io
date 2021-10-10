@@ -14,6 +14,8 @@ window.onload = () => {
     }
 
     if (!localStorage.getItem("darkModeEnabled") || localStorage.getItem("darkModeEnabled") == "true") {
+        $("#ict").text("Turn on the lights");
+        $("#icn").addClass("fa-sun-o")
         localStorage.setItem("darkModeEnabled",true);
         console.log("loading");
         loadBgIMG()
@@ -22,7 +24,6 @@ window.onload = () => {
         $("#bg").css("background-image","url(assets/images/background-light.jpg)");
         $("#ict").text("Turn off the lights");
         let n = $("#icn");
-        n.removeClass("fa-sun-o");
         n.addClass("fa-moon-o");
         console.log("loading");
         loadBgIMG();
