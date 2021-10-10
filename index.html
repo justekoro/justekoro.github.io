@@ -27,6 +27,7 @@
         <script src="https://kit.fontawesome.com/97b4a753c5.js" crossorigin="anonymous"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/index.js"></script>
     </head>
     <body>
         <div id="bg" style="background-image: url(assets/images/background.jpg);" class="bg-img top-0 w-100 h-100 position-fixed"></div>
@@ -41,16 +42,4 @@
             </button>
         </div>
     </body>
-    <script>
-        let src=$("#bg").css("background-image");
-        let url=src.match(/\((.*?)\)/)[1].replace(/('|")/g,'');
-        let img=new Image();
-        img.onload=()=>{
-            let el = document.getElementsByClassName("bg-dark")[0];
-            el.classList.add("bg-transparent")
-            el.classList.remove("bg-dark");
-        }
-        img.src=url;
-        if(img.complete)img.onload();
-    </script>
 </html>
