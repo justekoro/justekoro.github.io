@@ -7,8 +7,9 @@ body,html{
 }
 .pres{
     background-color: rgba(44,48,52,.7);
-    border-radius: 25px;
-    padding: 1% 2%;
+    border-radius: 100px;
+    padding: 1% 4%;
+    max-width: 50%;
 }
 .bottom-def{
     bottom:.5%;
@@ -19,4 +20,44 @@ body,html{
 
 a i {
     color: white;
+}
+.logo{
+    display: inline-block;
+    border-radius: 500px;
+}
+.z-10{
+    z-index: 10;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    vertical-align: middle;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+}
+@keyframes an_f {
+    0%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.fade-2s{
+    animation: an_f linear 2s;
+}
+.invisible, .invisible i {
+    display: none;
+}
+.m-c{
+    margin: 0 2%;
 }
