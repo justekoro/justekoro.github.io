@@ -14,6 +14,15 @@ body,html{
 .bottom-def{
     bottom:.5%;
 }
+.left-def{
+    left: 5px;
+    bottom: -5px;
+}
+.left-def > p {
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 25px;
+}
 .tr-bg-fade{
     transition: background-color .5s linear;
 }
