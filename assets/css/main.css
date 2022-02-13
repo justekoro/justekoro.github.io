@@ -1,5 +1,6 @@
 body,html{
     height: 100%;
+    overflow: hidden;
 }
 .bg-img{
     background-repeat:no-repeat;
@@ -26,7 +27,9 @@ body,html{
 .tr-bg-fade{
     transition: background-color .5s linear;
 }
-
+#arrows {
+    animation: jump infinite linear 2s;
+}
 a i {
     color: white;
 }
@@ -51,14 +54,22 @@ a i {
     0%{
         opacity: 1;
     }
-    40%{
-        opacity: 0;
-    }
-    60%{
+    40%,60%{
         opacity: 0;
     }
     100%{
         opacity: 1;
+    }
+}
+@keyframes jump {
+    from,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-10%);
+    }
+    50%,80%{
+        transform: translateY(-11%);
     }
 }
 .fade-2s{
