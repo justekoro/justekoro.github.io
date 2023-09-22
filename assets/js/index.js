@@ -40,7 +40,7 @@ window.onload = () => {
             $("#title").text("Who am I?");
             $("#subtitle").css("display","none");
             $("#text").css("display","block");
-            $("#text").html("hi! I'm koro, a 16 yo developer from France.<br/>I started programming in 2017 with Discord Bots, applications that allows you to use almost the full potential of Discord by coding. Then, I wanted to try other things and I got interested in web development in 2019. I only have the basics in frontend development.");
+            $("#text").html("hi! I'm koro, a 17 yo developer from France.<br/>I started programming in 2017 with Discord Bots, applications that allows you to use almost the full potential of Discord by coding. Then, I wanted to try other things and I got interested in web development in 2019. I only have the basics in frontend development.");
             $(".active")[0].classList.remove("active")
             $("#wai-t").addClass("active");
             if(!$("#arrows").hasClass("invisible"))$("#arrows").addClass("invisible");
